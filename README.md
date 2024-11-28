@@ -2,7 +2,7 @@
 
 ## DynamicSelector™
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=A+Fast+and+Easy+Way+to+Create+Parametric+Selectors)
-<br>DynamicSelector™ is a powerful tool designed to simplify and accelerate the creation of applications with parametric selection, such as filters for products, real estate, services, and more. It’s built for developers, designers, and even non-technical users who want to create interactive selectors without writing complex code.
+<br>DynamicSelector™ — is a powerful tool designed to simplify and accelerate the creation of applications with parametric selection, such as filters for products, real estate, services, and more. It’s built for developers, designers, and even non-technical users who want to create interactive selectors without writing complex code.
 
 &nbsp; 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Key+Features)
@@ -12,7 +12,7 @@
   <li><b>Flexibility:</b> Ideal for creating filters and selectors of any complexity, from simple to highly customized solutions.</li>
   <li><b>Time-Saving:</b> Reduces development time from weeks to just days or even hours.</li>
   <li><b>Feed Support:</b> Easily integrates with any data format, including CSV, JSON, and REST APIs.</li>
-  <li><b>Modularity:</b> Configure selectors for any application type—mobile, desktop, or web.</li>
+  <li><b>Modularity:</b> Configure selectors for any application type — mobile, desktop, or web.</li>
 </ul>
 
 &nbsp; 
