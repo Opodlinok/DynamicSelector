@@ -5,6 +5,16 @@
 
 ---
 
+## [0.15.0] - 2025-03-03
+### Added
+- Добавлен тестовый - вспомогательный класс `TextFormatterWatcher` (_Plugins/DynamicSelector/Sample/Scripts/..._), позволяющий любым текстовым полям считывать `Formatter` теги.
+
+### Changed
+- В `Formatter` добавлен новый тег `<wordraw:N>` — взять N слово из строки игнорируя спец. символы.
+- Временно отключены `after` и `before` теги форматирования.
+
+---
+
 ## [0.14.0] - 2025-02-21
 ### Added
 - Новый тип фильтра: `ConditionDropdownFilter`. Это альтернатива `DropdownFilter`, работающая по принципу `Switcher` или `DictionaryToggleGroup`.
