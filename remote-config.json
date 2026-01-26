@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-01-26T10:00:00Z",
+  "messages": [
+    {
+      "id": "ds-critical-migration-001",
+      "title": "Legacy plugin deprecated",
+      "body": "DynamicSelector Legacy will be removed soon. Please migrate to the new .exe workflow.",
+      "severity": "critical",
+      "versionRange": { "min": "0.18.0", "max": "0.19.99" },
+      "dateRangeUtc": { "from": "2026-01-01", "to": "2026-03-01" },
+      "where": [ "MessageCenter", "FeedManagerWindow" ],
+      "requiredAck": true,
+      "blocking": false,
+      "actions": [
+        { "type": "openUrl", "label": "Migration guide", "url": "https://…" }
+      ]
+    }
+  ]
+}
