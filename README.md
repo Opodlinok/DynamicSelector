@@ -1,6 +1,6 @@
 ![DynamicSelector Logo](./Resources/repository-collaborators-icon.png)
 
-## DynamicSelector™
+## DynamicSelector
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=A+Fast+and+Easy+Way+to+Create+Parametric+Selectors)
 <br>DynamicSelector™ — is a powerful tool designed to simplify and accelerate the creation of applications with parametric selection, such as filters for products, real estate, services, and more. It’s built for developers, designers, and even non-technical users who want to create interactive selectors without writing complex code.
 
