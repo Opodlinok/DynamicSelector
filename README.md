@@ -1,30 +1,114 @@
 ![DynamicSelector Logo](./Resources/repository-collaborators-icon.png)
 
-## DynamicSelector
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=A+Fast+and+Easy+Way+to+Create+Parametric+Selectors)
-<br>DynamicSelector — is a powerful tool designed to simplify and accelerate the creation of applications with parametric selection, such as filters for products, real estate, services, and more. It’s built for developers, designers, and even non-technical users who want to create interactive selectors without writing complex code.
+# DynamicSelector
+[Русская версия Readme](README.ru.md)
 
-&nbsp; 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Key+Features)
-<ul>
-  <li><b>Ease of Integration:</b> Connect DynamicSelector to your Unity project, configure the UI through the editor, and link it to a data feed (e.g., CSV, JSON, or API). Everything else is automated.</li>
-  <li><b>Simplicity:</b> Customize selectors via an intuitive interface. Just specify which parameters to display and map them to data feed fields.</li>
-  <li><b>Flexibility:</b> Ideal for creating filters and selectors of any complexity, from simple to highly customized solutions.</li>
-  <li><b>Time-Saving:</b> Reduces development time from weeks to just days or even hours.</li>
-  <li><b>Feed Support:</b> Easily integrates with any data format, including CSV, JSON, and REST APIs.</li>
-  <li><b>Modularity:</b> Configure selectors for any application type — mobile, desktop, or web.</li>
-</ul>
+DynamicSelector is a Unity tool designed for creating
+parametric selectors and filters based on external data.
 
-&nbsp; 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Who+Is+It+For?)
-<ul>
-  <li><b>Developers:</b> Speed up routine tasks and focus on more complex aspects of your project.</li>
-  <li><b>Designers:</b> Create selectors independently without needing to write code.</li>
-  <li><b>Small and Medium Businesses:</b> Quickly implement filtering solutions for products, services, or any other type of information.</li>
-</ul>
+The plugin allows you to configure filtering logic and parameter visualization
+directly through the Unity Editor, without hardcoding logic and without
+repeatedly implementing the same UI solutions manually.
 
-&nbsp; 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Why+Choose+DynamicSelector?)
-<br>DynamicSelector reduces workload, saves resources, and makes selector creation accessible even for those without technical skills. It’s the perfect tool to accelerate development and boost your team’s productivity.
+---
 
-&nbsp; 
+## Key Features
+
+- Creation of parametric selectors (filters, switches, ranges)
+- Logic configuration via the Unity Editor
+- Binding UI to external data sources
+- Modular architecture with extensibility in mind
+- Suitable for mobile, desktop, and web projects
+
+---
+
+## Who Is This Tool For
+
+- **Unity developers** who need to implement filtering and parameter selection efficiently
+- **Designers** working with UI and configurations without constant programmer involvement
+- **Projects with dynamic data**, where parameter structures may change over time
+
+---
+
+## How It Works (Brief Overview)
+
+1. A data structure is defined (XML feed)
+2. A selector configuration is created in the Editor
+3. Parameters are mapped to data fields
+4. The UI automatically reacts to changes and filtering
+
+---
+
+## Requirements
+
+- Unity 2021.3 LTS or newer  
+- UI based on Unity UI / TextMeshPro  
+- Project set to .NET Framework 4.x Equivalent
+
+---
+
+## Quick Start
+
+Import the DynamicSelector package into your Unity project:
+
+**Via Package Manager UI**
+1. Open **Window → Package Manager**
+2. Click **"+" → Add package from git URL...**
+3. Enter: ```https://github.com/opodlinok/DynamicSelector.git?path=Packages/src```
+
+**Or manually**
+- Download the `.unitypackage` from the **Releases** section and import it into your project
+
+**In the project**
+1. Add the `FeedManager` component to a scene and configure its fields
+2. Add the `FilterManager` component, assign it to `FeedManager`, and create filters as needed
+3. Create an offer prefab with the `OfferView` component and assign it to `FeedManager`
+4. Map data fields to UI parameters in `OfferView`
+5. Run the scene and adjust the behavior
+
+---
+
+## Updates
+
+The plugin includes a built-in update system  
+(via **Toolbar → Window → DynamicSelector → Update Wizard**).
+
+Manual updates are also available via the **Releases** section.
+
+---
+
+## Project Status
+
+The project is under active development.
+
+Planned for version 1.0.0:
+- API stabilization
+- Expanded documentation
+- Support for additional data formats
+- Improved Editor UX
+- Sample scenes and a setup wizard
+
+---
+
+## Source Code
+
+At the moment, DynamicSelector is distributed as compiled assemblies (.dll).
+
+This repository is used for distributing releases, documentation,
+and integration with Unity Package Manager.
+
+Publishing the source code is not planned until the API is stabilized
+and version 1.0 is released.
+
+---
+
+## Documentation
+
+Detailed documentation, examples, and architectural notes
+are available in the repository Wiki (in progress).
+
+---
+
+## License
+
+See the [License.md](License.md) file for details.
