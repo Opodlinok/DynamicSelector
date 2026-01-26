@@ -1,19 +1,42 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-01-26T10:00:00Z",
+  "generatedAtUtc": "2026-01-26T00:00:00Z",
   "messages": [
     {
-      "id": "ds-critical-migration-001",
-      "title": "Legacy plugin deprecated",
-      "body": "DynamicSelector Legacy will be removed soon. Please migrate to the new .exe workflow.",
+      "id": "ds-welcome-001",
+      "title": "Message Center is enabled",
+      "body": "This is a test message. You can target messages by version/date/context and require acknowledgment.",
+      "severity": "info",
+      "enabled": true,
+
+      "versionRange": { "min": "0.0.0", "max": "999.999.999" },
+      "dateRangeUtc": { "from": "2020-01-01", "to": "2099-12-31" },
+
+      "where": [ "MessageCenter" ],
+      "requiredAck": false,
+      "blocking": false,
+
+      "actions": [
+        { "type": "openUrl", "label": "Docs", "url": "https://example.com" }
+      ]
+    },
+
+    {
+      "id": "ds-critical-legacy-001",
+      "title": "Legacy warning example",
+      "body": "Example critical message shown in FeedManager window context.",
       "severity": "critical",
+      "enabled": true,
+
       "versionRange": { "min": "0.18.0", "max": "0.19.99" },
       "dateRangeUtc": { "from": "2026-01-01", "to": "2026-03-01" },
-      "where": [ "MessageCenter", "FeedManagerWindow" ],
+
+      "where": [ "FeedManagerWindow" ],
       "requiredAck": true,
       "blocking": false,
+
       "actions": [
-        { "type": "openUrl", "label": "Migration guide", "url": "https://…" }
+        { "type": "openUrl", "label": "Migration guide", "url": "https://example.com/migrate" }
       ]
     }
   ]
