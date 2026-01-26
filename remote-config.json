@@ -17,11 +17,16 @@
       "blocking": false,
 
       "actions": [
-        { "type": "openUrl", "label": "Docs", "url": "https://example.com" }
+        {
+          "type": "openUrl",
+          "label": "🎉 Поздравить",
+          "url": "https://github.com/Opodlinok/DynamicSelector"
+        }
       ]
     }
   ]
 }
+
 
 
 
