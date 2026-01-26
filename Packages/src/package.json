@@ -1,0 +1,12 @@
+{
+  "name": "com.opodlinok.dynamicselector",
+  "displayName": "DynamicSelector",
+  "version": "0.20.0",
+  "unity": "2021.3",
+  "description": "Parametric selectors and filters for Unity driven by external data.",
+  "author": {
+    "name": "Opodlinok",
+    "email": "opodlinok.job@gmail.com",
+    "url": "https://github.com/opodlinok"
+  }
+}
