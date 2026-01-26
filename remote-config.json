@@ -19,13 +19,14 @@
       "actions": [
         {
           "type": "openUrl",
-          "label": "🎉 Поздравить",
+          "label": "⭐ Оценить на Github",
           "url": "https://github.com/Opodlinok/DynamicSelector"
         }
       ]
     }
   ]
 }
+
 
 
 
