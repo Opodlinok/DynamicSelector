@@ -2,12 +2,12 @@
 
 ## DynamicSelector
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=A+Fast+and+Easy+Way+to+Create+Parametric+Selectors)
-<br>DynamicSelector™ — is a powerful tool designed to simplify and accelerate the creation of applications with parametric selection, such as filters for products, real estate, services, and more. It’s built for developers, designers, and even non-technical users who want to create interactive selectors without writing complex code.
+<br>DynamicSelector — is a powerful tool designed to simplify and accelerate the creation of applications with parametric selection, such as filters for products, real estate, services, and more. It’s built for developers, designers, and even non-technical users who want to create interactive selectors without writing complex code.
 
 &nbsp; 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Key+Features)
 <ul>
-  <li><b>Ease of Integration:</b> Connect DynamicSelector™ to your Unity project, configure the UI through the editor, and link it to a data feed (e.g., CSV, JSON, or API). Everything else is automated.</li>
+  <li><b>Ease of Integration:</b> Connect DynamicSelector to your Unity project, configure the UI through the editor, and link it to a data feed (e.g., CSV, JSON, or API). Everything else is automated.</li>
   <li><b>Simplicity:</b> Customize selectors via an intuitive interface. Just specify which parameters to display and map them to data feed fields.</li>
   <li><b>Flexibility:</b> Ideal for creating filters and selectors of any complexity, from simple to highly customized solutions.</li>
   <li><b>Time-Saving:</b> Reduces development time from weeks to just days or even hours.</li>
@@ -25,6 +25,6 @@
 
 &nbsp; 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Why+Choose+DynamicSelector™?)
-<br>DynamicSelector™ reduces workload, saves resources, and makes selector creation accessible even for those without technical skills. It’s the perfect tool to accelerate development and boost your team’s productivity.
+<br>DynamicSelector reduces workload, saves resources, and makes selector creation accessible even for those without technical skills. It’s the perfect tool to accelerate development and boost your team’s productivity.
 
 &nbsp; 
