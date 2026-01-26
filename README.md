@@ -24,7 +24,7 @@
 </ul>
 
 &nbsp; 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Why+Choose+DynamicSelector™?)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Work+Sans&weight=600&duration=6000&pause=80&color=F7F7F7&background=0D1117&center=false&vCenter=true&repeat=true&width=1080&height=20&lines=Why+Choose+DynamicSelector?)
 <br>DynamicSelector reduces workload, saves resources, and makes selector creation accessible even for those without technical skills. It’s the perfect tool to accelerate development and boost your team’s productivity.
 
 &nbsp; 
