@@ -10,7 +10,7 @@
       "enabled": true,
 
       "versionRange": { "min": "0.0.0", "max": "999.999.999" },
-      "dateRangeUtc": { "from": "2020-01-01", "to": "2099-12-31" },
+      "dateRangeUtc": { "from": "2026-01-26", "to": "2026-02-02" }
 
       "where": [ "MessageCenter" ],
       "requiredAck": false,
@@ -22,5 +22,6 @@
     }
   ]
 }
+
 
 
