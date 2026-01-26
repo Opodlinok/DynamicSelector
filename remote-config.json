@@ -19,26 +19,8 @@
       "actions": [
         { "type": "openUrl", "label": "Docs", "url": "https://example.com" }
       ]
-    },
-
-    {
-      "id": "ds-critical-legacy-001",
-      "title": "Legacy warning example",
-      "body": "Example critical message shown in FeedManager window context.",
-      "severity": "critical",
-      "enabled": true,
-
-      "versionRange": { "min": "0.18.0", "max": "0.19.99" },
-      "dateRangeUtc": { "from": "2026-01-01", "to": "2026-03-01" },
-
-      "where": [ "FeedManagerWindow" ],
-      "requiredAck": true,
-      "blocking": false,
-
-      "actions": [
-        { "type": "openUrl", "label": "Migration guide", "url": "https://example.com/migrate" }
-      ]
     }
   ]
 }
+
 
