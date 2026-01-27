@@ -111,4 +111,4 @@ are available in the repository Wiki (in progress).
 
 ## License
 
-See the [License.md](License.md) file for details.
+See the [License.md](LICENSE.md) file for details.
