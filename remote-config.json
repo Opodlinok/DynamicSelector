@@ -1,24 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAtUtc": "2026-01-26T00:00:00Z",
+  "generatedAtUtc": "2026-02-05T00:00:00Z",
   "messages": [
     {
       "id": "ds-welcome-001",
       "severity": 0,
       "title": "Message Center заработал!",
-      "body": "Это тестовое сообщение. До 2 февраля.",
+      "body": "Это тестовое сообщение. Показывается до конца 05.02.2026.",
       "enabled": true,
 
       "targets": [ 1 ],
       "conditions": {
         "dateFromUtc": "2026-01-26T00:00:00Z",
-        "dateToUtc": "2026-02-02T23:59:59Z"
+        "dateToUtc": "2026-02-05T23:59:59Z"
       },
 
       "actions": [
         {
           "type": "openUrl",
           "label": "⭐ Оценить на GitHub",
+          "url": "https://github.com/Opodlinok/DynamicSelector"
+        }
+      ]
+    },
+
+    {
+      "id": "ds-followup-002",
+      "severity": 0,
+      "title": "Новая подсказка",
+      "body": "Это сообщение включится ровно с 06.02.2026. Привет!",
+      "enabled": true,
+
+      "targets": [ 1 ],
+      "conditions": {
+        "dateFromUtc": "2026-02-06T00:00:00Z",
+        "dateToUtc": "2026-02-12T23:59:59Z"
+      },
+
+      "actions": [
+        {
+          "type": "openUrl",
+          "label": "Открыть репозиторий",
           "url": "https://github.com/Opodlinok/DynamicSelector"
         }
       ]
