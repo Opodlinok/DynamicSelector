@@ -4,32 +4,24 @@
   "messages": [
     {
       "id": "ds-welcome-001",
+      "severity": 0,
       "title": "Message Center заработал!",
-      "body": "Это тестовое сообщение. Теперь вы можете получать сообщение с административной информацией по версии/дате/контексту и многое многое другое!",
-      "severity": "info",
+      "body": "Это тестовое сообщение. До 2 февраля.",
       "enabled": true,
 
-      "versionRange": { "min": "0.0.0", "max": "999.999.999" },
-      "dateRangeUtc": { "from": "2026-01-26", "to": "2026-02-02" },
-
-      "where": [ "MessageCenter" ],
-      "requiredAck": false,
-      "blocking": false,
+      "targets": [ 1 ],
+      "conditions": {
+        "dateFromUtc": "2026-01-26T00:00:00Z",
+        "dateToUtc": "2026-02-02T23:59:59Z"
+      },
 
       "actions": [
         {
           "type": "openUrl",
-          "label": "⭐ Оценить на Github",
+          "label": "⭐ Оценить на GitHub",
           "url": "https://github.com/Opodlinok/DynamicSelector"
         }
       ]
     }
   ]
 }
-
-
-
-
-
-
-
